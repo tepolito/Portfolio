@@ -2183,7 +2183,9 @@
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-image: url("../../images/banner2.jpg");
+				filter: blur(5px);
+				z-index: 1;
 			}
 
 			#main > section.two {
@@ -2256,6 +2258,7 @@
 
 			.container {
 				padding: 0 2em 0 2em;
+				z-index: 2;
 			}
 
 		/* List */
